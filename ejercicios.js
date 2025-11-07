@@ -211,7 +211,12 @@ for (const n of numeros){
  */
 function promedioArray(numeros) {
   // TODO: Calcula el promedio (suma total / cantidad de elementos)
-  return 0;
+  let suma=0;
+  for (const n of numeros){
+      	suma+=n;
+    }
+  const promedio = suma/numeros.length;
+  return promedio;
 }
 
 /**
