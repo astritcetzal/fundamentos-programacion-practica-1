@@ -164,10 +164,8 @@ function tablaMultiplicar(numero) {
   // TODO: Genera un array con la tabla de multiplicar
   const tabla = [] 
 for (let i = 1; i <=10; i++){
-
 	tabla.push(numero * i);
-return tabla;
-}
+}return tabla;
 }
 
 /**
@@ -214,7 +212,7 @@ function promedioArray(numeros) {
 function encontrarMaximo(numeros) {
   // TODO: Encuentra y retorna el nÃºmero mÃ¡s grande
   // Pista: Puedes usar Math.max(...numeros) o hacerlo con un bucle
-  return 0;
+  return Math.max(numeros);
 }
 
 /**
