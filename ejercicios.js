@@ -176,8 +176,14 @@ for (let i = 1; i <=10; i++){
  */
 function numerosPares(n) {
   // TODO: Crea un array con todos los nÃºmeros pares hasta n
-  const pares = [];
-  return pares;
+    const pares = [];
+    for (let i=2; i <= n; i++){
+      if ((i % 2)===0)  {
+
+      pares.push (i);
+      }	
+    }
+    return pares;
 }
 
 // ============================================
@@ -212,7 +218,7 @@ function promedioArray(numeros) {
 function encontrarMaximo(numeros) {
   // TODO: Encuentra y retorna el nÃºmero mÃ¡s grande
   // Pista: Puedes usar Math.max(...numeros) o hacerlo con un bucle
-  return Math.max(numeros);
+  return 0 ;
 }
 
 /**
