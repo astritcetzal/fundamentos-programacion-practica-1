@@ -175,7 +175,7 @@ for (let i = 1; i <=10; i++){
  * Ejemplo: numerosPares(10) debe retornar [2, 4, 6, 8, 10]
  */
 function numerosPares(n) {
-  // TODO: Crea un array con todos los nÃºmeros pares hasta n
+  // Array con todos los nÃºmeros pares hasta n
     const pares = [];
     for (let i=2; i <= n; i++){
       if ((i % 2)===0)  {
@@ -197,7 +197,11 @@ function numerosPares(n) {
  */
 function sumaArray(numeros) {
   // TODO: Suma todos los elementos del array
-  return 0;
+  let suma=0;
+for (const n of numeros){
+      	suma+=n;
+    }
+    return suma;
 }
 
 /**
