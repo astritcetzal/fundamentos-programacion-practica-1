@@ -250,7 +250,7 @@ function encontrarMaximo(numeros) {
  */
 function filtrarMayores(numeros, limite) {
 const mayores =[];
-  for (const n of numeros){
+  for (const n of numeros ){
     if (n> limite){
       mayores.push(n);
     }
@@ -265,11 +265,16 @@ const mayores =[];
  * Ejemplo: invertirArray([1, 2, 3, 4]) debe retornar [4, 3, 2, 1]
  */
 function invertirArray(arr) {
-  // TODO: Invierte el orden de los elementos
-  // Pista: Puedes usar arr.reverse() o hacerlo manualmente
-  const invertido = [];
+  const invertido = []; 
+  
+  // Iteramos desde el último índice (arr.length - 1) hasta el primero (0).
+  for (let i = arr.length - 1; i >= 0; i--) {
+    // Añadimos el elemento actual (que es el último) al nuevo array.
+    invertido.push(arr[i]);
+  }
   return invertido;
 }
+
 
 // ============================================
 // SECCIÃ“N 5: ARRAYS BIDIMENSIONALES (30 puntos)
