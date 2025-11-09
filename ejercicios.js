@@ -318,7 +318,6 @@ function sumaMatriz(matriz) {
         for (let j =0; j < matriz[i].length; j++){
             suma += matriz [i][j];
         }
-    
     }
     return suma;
 }
@@ -332,7 +331,7 @@ function sumaMatriz(matriz) {
  */
 function obtenerFila(matriz, indiceFila) {
   // TODO: Retorna la fila indicada
-  return [];
+  return matriz [indiceFila];
 }
 
 /**
