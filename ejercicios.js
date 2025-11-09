@@ -311,7 +311,16 @@ function crearMatriz(filas, columnas) {
 function sumaMatriz(matriz) {
   // TODO: Suma todos los elementos de la matriz
   // NecesitarÃ¡s dos bucles: uno para las filas y otro para las columnas
-  return 0;
+  let suma =0;
+    //para recorrer cada fila
+    for (let i =0; i < matriz.length; i++){
+        //para recorrer columnas  
+        for (let j =0; j < matriz[i].length; j++){
+            suma += matriz [i][j];
+        }
+    
+    }
+    return suma;
 }
 
 /**
