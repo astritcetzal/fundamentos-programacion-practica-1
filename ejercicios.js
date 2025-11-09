@@ -265,8 +265,7 @@ const mayores =[];
  * Ejemplo: invertirArray([1, 2, 3, 4]) debe retornar [4, 3, 2, 1]
  */
 function invertirArray(arr) {
-  const invertido = []; 
-  
+  const invertido = [];  
   // Iteramos desde el último índice (arr.length - 1) hasta el primero (0).
   for (let i = arr.length - 1; i >= 0; i--) {
     // Añadimos el elemento actual (que es el último) al nuevo array.
@@ -291,8 +290,16 @@ function invertirArray(arr) {
  */
 function crearMatriz(filas, columnas) {
   // TODO: Crea una matriz de filas x columnas llena de ceros
-  const matriz = [];
-  return matriz;
+    const matriz = [];
+    for (let i =0; i < filas; i++){
+        const fila = [];
+    
+    for (let j =0; j < columnas; j++){
+        fila.push(0);
+    }
+    matriz.push(fila);
+    }
+    return matriz;
 }
 
 /**
