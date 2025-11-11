@@ -2,7 +2,7 @@
 
 ## 👨‍💻 Información del Estudiante
 
-- **Nombre:** Astrit Airan Cetzal
+- **Nombre:** Astrit Airan Cetzal Cetzal
 - **Matrícula:** SW2509028
 - **Grupo:** C
 - **Cuatrimestre:** Primer Cuatrimestre
@@ -244,7 +244,7 @@ git log --oneline --graph --decorate
 
 ## 🤝 Agradecimientos
 
-- **Profesor Jorge Javier Pedrozo Romero** por la estructura del curso y la práctica
+- **Profesor Jorge Javier Pedrozo Romero** por la estructura del curso, la práctica, y tambien por su apoyo en el proceso 
 - **Compañeros del Grupo [B/C]** Venus Getsemaní Semino Alemán, Joaquín Uriona por el apoyo mutuo
 - **Tecnológico de Software** por la formación integral
 
