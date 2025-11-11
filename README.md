@@ -84,7 +84,7 @@ Este repositorio contiene mi solución a la práctica de **Fundamentos de álgeb
 └────────────────────────────────────────┘
 ```
 
-![Tests](/actions/workflows/test.yml/badge.svg)
+![Tests](../../actions/workflows/test.yml/badge.svg)
 
 ---
 
